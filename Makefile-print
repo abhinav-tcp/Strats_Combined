@@ -1,0 +1,2 @@
+compiling with shared lib SimLib:
+	g++ -O3 -D__SIMMODE__ -L/home/infra/InternalSimulatorUsers/Backtester -Wall -o S12-quad-log.out options-utils.cpp strategyConnector.cpp strategy.cpp spreadCalc.cpp quadDistribution.cpp strat_QuadDist.cpp  -lSimMinutelyNSEFOv0.8 -DslFlag -DabsLots -DlotsChange -larrow -lparquet -DdebugStrat -Dcsim -D__DEBUGPRINT__
